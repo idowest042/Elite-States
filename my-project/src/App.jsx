@@ -12,7 +12,9 @@ import ServicesPage from './components/Service'
 import AboutPage from './components/About'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+export const backendUrl = import.meta.env.VITE_BACKEND_URL
 const App = () => {
+  
   return (
     <div className=''>
       <ToastContainer/>
