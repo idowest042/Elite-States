@@ -18,7 +18,7 @@ app.use(cors({
   origin: ['http://localhost:5173', 
   'http://localhost:5174',
   'https://elite-admin-three.vercel.app',
-  'https://elite-realestate.vercel.app/'
+  'https://elite-realestate.vercel.app'
 ],// or wherever your frontend is hosted
   credentials: true
 }));
