@@ -1,6 +1,6 @@
 import {create} from 'zustand';
 import { axiosInstance } from './axios';
-export const baseUrl = import.meta.env.MODE === 'development' ? 'http://localhost:3000': '/';
+export const baseUrl = import.meta.env.MODE === 'development' ? 'http://localhost:3000': 'https://elite-states.vercel.app/';
 export const apimanagement = create((set) => ({
     isGettingData: false,
     isPostingData: false,

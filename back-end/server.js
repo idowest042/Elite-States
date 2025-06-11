@@ -16,7 +16,9 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: ['http://localhost:5173', 
-  'http://localhost:5174'],// or wherever your frontend is hosted
+  'http://localhost:5174',
+  'https://elite-admin-three.vercel.app'
+],// or wherever your frontend is hosted
   credentials: true
 }));
 

@@ -2,7 +2,7 @@ import {create} from 'zustand';
 import { axiosInstance } from './axios';
 import { toast } from "react-toastify"
 import { useNavigate } from 'react-router-dom';
-export const baseUrl = import.meta.env.MODE === 'development' ? 'http://localhost:3000': '/';
+export const baseUrl = import.meta.env.MODE === 'development' ? 'http://localhost:3000': 'https://elite-states.vercel.app';
 export const authentication= create((set) => ({
     isSignup:false,
     isLogging:false,
